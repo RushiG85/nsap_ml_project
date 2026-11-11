@@ -1,0 +1,24 @@
+[project]
+name = "nsap-ml-project"
+version = "1.0.0"
+description = "NSAP Eligibility Prediction — Multi-Class Scheme Classifier"
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit>=1.40.0",
+    "pandas>=2.2.3",
+    "numpy>=2.1.0",
+    "scikit-learn>=1.6.0",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.2",
+    "xgboost>=2.1.0",
+    "lightgbm>=4.5.0",
+    "imbalanced-learn>=0.13.0",
+    "joblib>=1.4.0",
+    "plotly>=5.24.0",
+    "jupyter>=1.1.0",
+    "ipykernel>=6.29.0",
+]
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.backends.legacy:build"
